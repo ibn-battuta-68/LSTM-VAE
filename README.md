@@ -1,8 +1,15 @@
-Create a new virtual environment and install the following versions of the libraries to run the code:
-NumPy version: 1.19.2 
-Pandas version: 1.1.5 
-Gensim version: 4.0.1 
-NLTK version: 3.6.5 
-TensorFlow version: 1.10.0 
-Six version: 1.16.0 
-Python version: Python 3.6.13 
+# Steps to set up the environment and run the code:
+  - Create a new virtual environment:
+    - Use the command `python3 -m venv env` to create a virtual environment named `env`.
+    - Activate the virtual environment:
+      - On Windows: `env\Scripts\activate`
+      - On macOS/Linux: `source env/bin/activate`
+  - Install the following versions of the libraries:
+    - NumPy version: 1.19.2
+    - Pandas version: 1.1.5
+    - Gensim version: 4.0.1
+    - NLTK version: 3.6.5
+    - TensorFlow version: 1.10.0
+    - Six version: 1.16.0
+    - Python version: Python 3.6.13
+  - Ensure that the dataset is in the same directory as the file to avoid path issues.
